@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .container{
+       width: 90%;
+       margin: auto;
+   }
+   /* header part */
+   header{
+       float: left;
+       width: 100%;
+       background-color: blue;
+       padding: 50px 0px;
+       color: white;
+       text-align: center;
+   }
+   nav{
+       width: 100%;
+       float: left;
+   }
+   .logo-part{
+       width: 50%;
+       float: left;
+       text-align: left;
+   }
+   .logo-part image{
+   }
+   .manu-part{
+       width: 50%;
+       float: left;
+   }
+   .manu-part ul{
+       margin: 12px 0px;
+   }
+   .manu-part li{
+       list-style: none;
+       display: inline-block;
+       margin: 0px 10px;
+   }
+   .manu-part a{
+       font-size: 18px;
+       font-weight: 500;
+       color: aqua;
+       text-transform: uppercase;
+       transition: ease 0.5s;
+     }
+     .manu-part a:hover{
+        background-color: rgb(165, 42, 42);
+        border-radius: 10px;
+    }
+   .hero{
+       width: 100%;
+       float: left;
+       padding: 110px 0px;
+   }
+   .hero h1{
+       width: 80%;
+       font-size: 40px;
+       margin: auto;
+   }
+   .hero button{
+       width: 220px;
+       padding: 15px;
+       font-size: 16px;
+       text-transform: uppercase;
+       background: aquamarine;
+       color: black;
+       font-weight: 500;
+       margin-top: 50px;
+   }
+   .hero button::hover{
+   }
+   
